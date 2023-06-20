@@ -12,7 +12,7 @@ namespace GrubNames
     {
         public static GlobalSettingsClass GS { get; set; } = new GlobalSettingsClass();
         new public string GetName() => "GrubNames";
-        public override string GetVersion() => "2.0.0.1";
+        public override string GetVersion() => "2.0.0.2";
 
         List<Grub> grubs = new List<Grub>();
 
