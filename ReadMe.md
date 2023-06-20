@@ -8,9 +8,9 @@ To install, place the .dll file in your Managed/Mods folder inside a folder name
 
 ## Usage
 By default, the grub names are set to their internal locations, in the format
-	Grub_[grublocation]
+	```Grub_[grublocation]```
 Example:
-	Grub_Fungal_Bouncy
+	```Grub_Fungal_Bouncy```
 
 1. Open Hollow Knight and open a save file to generate the GlobalSettings.json file.
 2. Go to LocalLow/Team Cherry/Hollow Knight/GrubNames.GlobalSettings.json.
