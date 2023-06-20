@@ -17,7 +17,6 @@ Example:
 1. Open Hollow Knight and open a save file to generate the GlobalSettings.json file.
 2. Go to LocalLow/Team Cherry/Hollow Knight/GrubNames.GlobalSettings.json.
 3. Either copy-paste one of the json files included in the releases, or replace the grub names with your own.
-4. (optional) if using one of the pre-prepared json files, remember to rename your file ```GrubNames.GlobalSettings.Json```
 
 ## Important Notes
 This mod is best used in conjunction with Randomizer when grubs are not randomized, but in a seperate pool so that they appear when picked up.
