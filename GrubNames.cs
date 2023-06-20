@@ -12,16 +12,15 @@ namespace GrubNames
     {
         public static GlobalSettingsClass GS { get; set; } = new GlobalSettingsClass();
         new public string GetName() => "GrubNames";
-        public override string GetVersion() => "2.0.0.0";
-        GrubDict userGrubs = new GrubDict();
+        public override string GetVersion() => "2.0.0.1";
 
         List<Grub> grubs = new List<Grub>();
 
         public override void Initialize()
         {
-            foreach (KeyValuePair<string, string> kvp in userGrubs.grubNamesDict)
+            foreach (KeyValuePair<string, string> kvp in GS.grubDict)
             {
-                grubs.Add(new(kvp.Key, kvp.Value));
+                grubs.Add(new(kvp.Value, kvp.Key));
             }
 
             AbstractItem.ModifyItemGlobal += args =>

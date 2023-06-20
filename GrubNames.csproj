@@ -74,12 +74,6 @@
 		<Reference Include="ItemChanger">
 		  <HintPath>$(LocalRefs)/Mods/ItemChanger/ItemChanger.dll</HintPath>
 		</Reference>
-		<Reference Include="MagicUI">
-			<HintPath>$(LocalRefs)/Mods/MagicUI/MagicUI.dll</HintPath>
-		</Reference>
-		<Reference Include="MenuChanger">
-		  <HintPath>$(LocalRefs)/Mods/MenuChanger/MenuChanger.dll</HintPath>
-		</Reference>
 		<Reference Include="MMHOOK_Assembly-CSharp">
 			<HintPath>$(LocalRefs)/MMHOOK_Assembly-CSharp.dll</HintPath>
 		</Reference>
@@ -106,15 +100,6 @@
 		</Reference>
 		<Reference Include="PlayMaker">
 			<HintPath>$(LocalRefs)/PlayMaker.dll</HintPath>
-		</Reference>
-		<Reference Include="RandomizerCore">
-		  <HintPath>$(LocalRefs)/Mods/RandomizerCore/RandomizerCore.dll</HintPath>
-		</Reference>
-		<Reference Include="RandomizerMod">
-		  <HintPath>$(LocalRefs)/Mods/Randomizer 4/RandomizerMod.dll</HintPath>
-		</Reference>
-		<Reference Include="Satchel">
-			<HintPath>Satchel.dll</HintPath>
 		</Reference>
 		<Reference Include="System.ComponentModel.Composition">
 			<HintPath>$(LocalRefs)/System.ComponentModel.Composition.dll</HintPath>

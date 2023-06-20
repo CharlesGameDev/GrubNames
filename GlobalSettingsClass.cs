@@ -8,52 +8,57 @@ namespace GrubNames
 {
     public class GlobalSettingsClass
     {
-        public string Grub_Crossroads_Acid = "0";
-        public string Grub_Crossroads_Center = "1";
-        public string Grub_Crossroads_Stag = "2";
-        public string Grub_Crossroads_Spike = "3";
-        public string Grub_Crossroads_Guarded = "4";
-        public string Grub_Greenpath_Cornifer = "5";
-        public string Grub_Greenpath_Journal = "6";
-        public string Grub_Greenpath_MMC = "7";
-        public string Grub_Greenpath_Stag = "8";
-        public string Grub_Fog_Canyon = "9";
-        public string Grub_Fungal_Bouncy = "10";
-        public string Grub_Fungal_Spore_Shroom = "11";
-        public string Grub_Deepnest_Mimic = "12";
-        public string Grub_Deepnest_Nosk = "13";
-        public string Grub_Deepnest_Spike = "14";
-        public string Grub_Dark_Deepnest = "15";
-        public string Grub_Beasts_Den = "16";
-        public string Grub_Kingdoms_Edge_Oro = "17";
-        public string Grub_Kingdoms_Edge_Camp = "18";
-        public string Grub_Hive_External = "19";
-        public string Grub_Hive_Internal = "20";
-        public string Grub_Basin_Requires_Wings = "21";
-        public string Grub_Basin_Requires_Dive = "22";
-        public string Grub_Waterways_Main = "23";
-        public string Grub_Ismas_Grove = "24";
-        public string Grub_Waterways_Requires_Tram = "25";
-        public string Grub_City_of_Tears_Left = "26";
-        public string Grub_Soul_Sanctum = "27";
-        public string Grub_Watchers_Spire = "28";
-        public string Grub_City_of_Tears_Guarded = "29";
-        public string Grub_Kings_Station = "30";
-        public string Grub_Resting_Grounds = "31";
-        public string Grub_Crystal_Peak_Below_Chest = "32";
-        public string Grub_Crystallized_Mound = "33";
-        public string Grub_Crystal_Peak_Spike = "34";
-        public string Grub_Crystal_Peak_Mimic = "35";
-        public string Grub_Crystal_Peak_Crushers = "36";
-        public string Grub_Crystal_Heart = "37";
-        public string Grub_Hallownest_Crown = "38";
-        public string Grub_Howling_Cliffs = "39";
-        public string Grub_Queens_Gardens_Stag = "40";
-        public string Grub_Queens_Gardens_Marmu = "41";
-        public string Grub_Queens_Gardens_Top = "42";
-        public string Grub_Collector_1 = "43";
-        public string Grub_Collector_2 = "44";
-        public string Grub_Collector_3 = "45";
-
+        /// <summary>
+        /// Dict of Grub Location name to User Defined Name
+        /// </summary>
+        public Dictionary<string, string> grubDict = new Dictionary<string, string>()
+        {
+            {"Grub-Crossroads_Acid", "Grub_Crossroads_Acid"},
+            {"Grub-Crossroads_Center", "Grub_Crossroads_Center"},
+            {"Grub-Crossroads_Stag", "Grub_Crossroads_Stag"},
+            {"Grub-Crossroads_Spike", "Grub_Crossroads_Spike"},
+            {"Grub-Crossroads_Guarded", "Grub_Crossroads_Guarded"},
+            {"Grub-Greenpath_Cornifer", "Grub_Greenpath_Cornifer"},
+            {"Grub-Greenpath_Journal", "Grub_Greenpath_Journal"},
+            {"Grub-Greenpath_MMC", "Grub_Greenpath_MMC"},
+            {"Grub-Greenpath_Stag", "Grub_Greenpath_Stag"},
+            {"Grub-Fog_Canyon", "Grub_Fog_Canyon"},
+            {"Grub-Fungal_Bouncy", "Grub_Fungal_Bouncy"},
+            {"Grub-Fungal_Spore_Shroom", "Grub_Fungal_Spore_Shroom"},
+            {"Grub-Deepnest_Mimic", "Grub_Deepnest_Mimic"},
+            {"Grub-Deepnest_Nosk", "Grub_Deepnest_Nosk"},
+            {"Grub-Deepnest_Spike", "Grub_Deepnest_Spike"},
+            {"Grub-Dark_Deepnest", "Grub_Dark_Deepnest"},
+            {"Grub-Beasts_Den", "Grub_Beasts_Den"},
+            {"Grub-Kingdoms_Edge_Oro", "Grub_Kingdoms_Edge_Oro"},
+            {"Grub-Kingdoms_Edge_Camp", "Grub_Kingdoms_Edge_Camp"},
+            {"Grub-Hive_External", "Grub_Hive_External"},
+            {"Grub-Hive_Internal", "Grub_Hive_Internal"},
+            {"Grub-Basin_Requires_Wings", "Grub_Basin_Requires_Wings"},
+            {"Grub-Basin_Requires_Dive", "Grub_Basin_Requires_Dive"},
+            {"Grub-Waterways_Main", "Grub_Waterways_Main"},
+            {"Grub-Ismas_Grove", "Grub_Ismas_Grove"},
+            {"Grub-Waterways_Requires_Tram", "Grub_Waterways_Requires_Tram"},
+            {"Grub-City_of_Tears_Left", "Grub_City_of_Tears_Left"},
+            {"Grub-Soul_Sanctum", "Grub_Soul_Sanctum"},
+            {"Grub-Watchers_Spire", "Grub_Watchers_Spire"},
+            {"Grub-City_of_Tears_Guarded", "Grub_City_of_Tears_Guarded"},
+            {"Grub-Kings_Station", "Grub_Kings_Station"},
+            {"Grub-Resting_Grounds", "Grub_Resting_Grounds"},
+            {"Grub-Crystal_Peak_Below_Chest", "Grub_Crystal_Peak_Below_Chest"},
+            {"Grub-Crystallized_Mound", "Grub_Crystallized_Mound"},
+            {"Grub-Crystal_Peak_Spike", "Grub_Crystal_Peak_Spike"},
+            {"Grub-Crystal_Peak_Mimic", "Grub_Crystal_Peak_Mimic"},
+            {"Grub-Crystal_Peak_Crushers", "Grub_Crystal_Peak_Crushers"},
+            {"Grub-Crystal_Heart", "Grub_Crystal_Heart"},
+            {"Grub-Hallownest_Crown", "Grub_Hallownest_Crown"},
+            {"Grub-Howling_Cliffs", "Grub_Howling_Cliffs"},
+            {"Grub-Queens_Gardens_Stag", "Grub_Queens_Gardens_Stag"},
+            {"Grub-Queens_Gardens_Marmu", "Grub_Queens_Gardens_Marmu"},
+            {"Grub-Queens_Gardens_Top", "Grub_Queens_Gardens_Top"},
+            {"Grub-Collector_1", "Grub_Collector_1"},
+            {"Grub-Collector_2", "Grub_Collector_2"},
+            {"Grub-Collector_3", "Grub_Collector_3"},
+        };
     }
 }
