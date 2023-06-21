@@ -22,7 +22,7 @@
 		<ErrorReport>prompt</ErrorReport>
 		<WarningLevel>4</WarningLevel>
 		<!-- Path to DLL references required to build mod -->
-		<LocalRefs>C:\Users\charl\Documents\Hollow Knight (Modded)\Hollow Knight_Data\Managed</LocalRefs>
+		<LocalRefs>G:\Files\Games\Hollow Knight\currpatch rando\hollow_knight_Data\Managed</LocalRefs>
 		<!-- Path to Mods folder -->
 		<ModsPath>$(LocalRefs)/Mods</ModsPath>
 		<!-- The folder that exports will be generated in -->
@@ -72,13 +72,7 @@
 			<HintPath>$(LocalRefs)/GalaxyCSharp.dll</HintPath>
 		</Reference>
 		<Reference Include="ItemChanger">
-		  <HintPath>..\..\..\Users\charl\Documents\Hollow Knight (Modded)\Hollow Knight_Data\Managed\Mods\ItemChanger\ItemChanger.dll</HintPath>
-		</Reference>
-		<Reference Include="MagicUI">
-			<HintPath>MagicUI.dll</HintPath>
-		</Reference>
-		<Reference Include="MenuChanger">
-		  <HintPath>..\..\..\Users\charl\Documents\Hollow Knight (Modded)\Hollow Knight_Data\Managed\Mods\MenuChanger\MenuChanger.dll</HintPath>
+		  <HintPath>$(LocalRefs)/Mods/ItemChanger/ItemChanger.dll</HintPath>
 		</Reference>
 		<Reference Include="MMHOOK_Assembly-CSharp">
 			<HintPath>$(LocalRefs)/MMHOOK_Assembly-CSharp.dll</HintPath>
@@ -106,15 +100,6 @@
 		</Reference>
 		<Reference Include="PlayMaker">
 			<HintPath>$(LocalRefs)/PlayMaker.dll</HintPath>
-		</Reference>
-		<Reference Include="RandomizerCore">
-		  <HintPath>..\..\..\Users\charl\Documents\Hollow Knight (Modded)\Hollow Knight_Data\Managed\Mods\RandomizerCore\RandomizerCore.dll</HintPath>
-		</Reference>
-		<Reference Include="RandomizerMod">
-		  <HintPath>..\..\..\Users\charl\Documents\Hollow Knight (Modded)\Hollow Knight_Data\Managed\Mods\Randomizer 4\RandomizerMod.dll</HintPath>
-		</Reference>
-		<Reference Include="Satchel">
-			<HintPath>Satchel.dll</HintPath>
 		</Reference>
 		<Reference Include="System.ComponentModel.Composition">
 			<HintPath>$(LocalRefs)/System.ComponentModel.Composition.dll</HintPath>
