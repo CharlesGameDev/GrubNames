@@ -4,7 +4,7 @@ ItemChanger/Randomizer 4 add-on that replaces Grub names with Grub names edited 
 
 ## Installation
 
-To install, place the .dll file in your Managed/Mods folder inside a folder named GrubNames.
+To install, place the .dll file in your Managed/Mods folder inside a folder named GrubNames. (This can be skipped if you're using Scarab)
 
 This mod comes with two pre-prepared Grub Name packs, with one with Skurry's grub names, and one with Blossom's AI generated grub names.
 
